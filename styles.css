@@ -1,0 +1,112 @@
+/* FONT SECTION
+ css : font-family: 'Comic Neue', cursive;
+*/
+body{
+    background-color: #F6FA70;
+    text-align: center;
+}
+
+
+h1{
+    margin: 4rem;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.main-container{
+    margin: 0 auto;
+    border: 4px solid black;
+    box-shadow: -10px 10px;
+    border-radius: 20px;
+    background-color: white;
+    height: 40%;
+    width: 50%;
+    min-width: 40rem;
+}
+
+#text-displayer{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span{
+    margin: 0 4px;
+    font-family: 'Comic Neue', cursive;
+    font-size: larger;
+    color: grey;
+}
+
+.math-container{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#timer{
+    visibility: hidden;
+}
+
+.math-container span{
+    margin: 1rem;
+    font-family: 'Comic Neue', cursive;
+    font-size: xx-large;
+    color: black;
+}
+
+#type-box{
+    width:80%;
+    /* margin: 0 2rem 2rem 2rem; */
+    margin: 1rem auto;
+    border: 2px solid black;
+    font-size: larger;
+    border-radius: 6px;
+    box-shadow: -2px 2px;
+    font-family: 'Comic Neue', cursive;
+    padding: 5px;
+}
+
+button{
+    margin: 2rem;
+    background-color: #1B9C85;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    font-size: x-large;
+    padding: 10px;
+    border: 0px;
+    border-radius: 1rem;
+    box-shadow: -6px 6px black;
+}
+
+button:hover{
+    margin: 2rem;
+    background-color: #A0D8B3;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+    font-size: x-large;
+    padding: 10px;
+    border: 0px;
+    border-radius: 1rem;
+    box-shadow: -6px 6px black;
+}
+
+#start-button{
+    visibility: hidden;
+}
+
+/* on the go styling */
+
+.current-word{
+    color: black;
+    font-weight:bolder;
+}
+.correct-word{
+    color: green;
+}
+.wrong-word{
+    color: red;
+}
